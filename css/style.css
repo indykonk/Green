@@ -1,0 +1,423 @@
+body {
+  margin-top: 145px;
+  /* background: red;  */
+  /* margin-left: 30px; */
+
+}
+
+ .navbar {
+  -webkit-box-shadow: 2px 2px 5px #71A454;
+          box-shadow: 2px 2px 5px #59804A;
+  opacity: 0.9;
+  background: #fff;
+  height: 115px;
+
+}
+
+.navbar .nav-item {
+  font-size: 1.4rem;
+  padding-right: 1.4rem;
+}
+
+.navbar .nav-item.active {
+  border-bottom: #87bb72 5px solid;
+  opacity: 0.7;
+}
+
+.container{
+  max-width: 95vw;
+}
+
+#contact{
+  margin: 5vh auto;
+}
+
+.contact{
+  margin: 50px auto;
+  padding-bottom: 30px;
+}
+
+.question{
+  font-size: 20px;
+}
+.img-fluid{
+  max-width: 300px;
+  height: auto;
+  position: relative;
+}
+
+#owner{
+  margin-left: 30%;
+  box-shadow: 5px 5px 5px #59804A;
+  max-width: 40vw;
+  height: auto;
+  margin-top: 15vh; 
+} 
+
+h1{
+  color: #23311e;
+  text-align: center;
+}
+
+h2{
+margin-bottom: 6rem;
+font-weight: 700;
+}
+
+h3{
+color: grey;
+margin-top: -25px;
+font-size: 25px;
+}
+.about{
+  display: flex;
+  flex-direction: row;
+}
+
+.text{
+  max-width: 40vw;
+  height: auto;
+  margin-left: 5%;
+  font-size: 18px;
+  margin-top: 5%;
+}
+
+#payment-button{
+  background: #59804A;
+  color: #ffff;
+}
+
+.fa{
+color: grey;
+}
+
+.fa-lock{
+  color:#fff!important;
+  margin-right: 20px;
+}
+.fa:hover{
+  color: #597F49;
+  cursor: pointer;
+}
+#pay_name{
+  margin:  50px auto;
+}
+
+#pay-invoice{
+ box-shadow: 3px 3px 3px #69a054; 
+}
+
+#main-footer{
+  background: #597F49;
+  position: static;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+}
+ 
+#pay-invoice{
+ margin-bottom: 10vh;
+}
+
+.info-header {
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px #ddd solid;
+}
+
+#authors img {
+  margin-top: -70px;
+}
+
+#authors .card:hover {
+  background: #59804A;
+  color: #fff;
+}
+h5:hover{
+  color: #fff !important;
+}
+
+#authors .fab {
+ color: #fff; 
+ font-size: 25px;
+}
+
+.card{
+box-shadow: 2px 2px 2px #dddcdc;
+}
+
+.dropdown-menu{
+  margin-top: 35px;
+  z-index: -20;
+}
+.dropdown-menu:hover{
+background: #96CB53;
+}
+.dropdown-item:focus{
+  color:#f3f3f3;
+}
+#accordion{
+  width: 90vw;
+  margin: 50px auto;
+}
+
+a{
+  color: #23311e;
+  text-decoration: none;
+  background-color: transparent;
+} 
+
+hr {
+  border: 2px solid #59804A;
+  width: 90vw;
+  box-shadow: 2px 2px 2px #96CB53;
+  opacity: 0.8;
+}
+
+/* ************************************ */
+
+.carousel-item {
+  height: 450px;
+  width: 90vw;
+}
+
+.carousel-image-1 {
+  background: url(../img/1_L.jpg);
+  background-size: cover;
+  }
+
+.carousel-image-2 {
+  background: url(../img/2_L.jpg);
+  background-size: cover;
+}
+
+.carousel-image-3 {
+  background: url(../img/3_L.jpg);
+  background-size: cover;
+  }
+
+#showcase{
+  margin: 5px 5vw;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+	width: 30px;
+	height: 30px;
+}
+
+/* **************************************** */
+.portfolio{
+  margin-top: 50px;
+}
+.mdb-lightbox {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(3, 1fr);
+grid-column-gap: 1px;
+grid-row-gap: 1px;
+width: 66vw;
+margin-left: 17vw;
+margin-right: 17vw; 
+}
+
+.title{
+  margin-bottom: 30px;
+}
+.img-fluid {
+    max-width: 20vw;
+    height: auto;
+    position: relative;
+    box-shadow: 5px 5px 5px #dddcdc;
+    margin-top: 5px;
+}
+
+.frame{
+  width: 85vw;
+  background: #faf8f8;
+  box-shadow: #E5E5E5 2px 2px 2px;
+  margin: 70px 7.5vw;
+}
+
+ .ifluid{
+  max-width: 40vw;
+  padding: 30px;
+  /* margin-left: 10vw; */
+} 
+
+.scapelanding{
+width: 50vw;
+height: auto;
+box-shadow: 5px 5px 5px #69a054;
+margin: 5px 25%;
+}
+
+.land{
+  width: 50vw;
+  margin: 25px 25%;
+  font-size: 20px;
+}
+.text_one{
+  width:30vw;
+}
+#button{
+  background: #59804A;
+}
+
+#button:hover{
+  background: #6b9959;
+}
+
+.lead{
+  margin: 30px;
+}
+
+.frame_2{
+  width: 60vw;
+  background: #faf8f8;
+  box-shadow: #E5E5E5 2px 2px 2px;
+  margin: 70px 20vw;
+}
+.video{
+  width: 60vw;
+  height: auto;
+  padding:30px;
+}
+
+.fab{
+  color: #fff;
+}
+
+/* Payment Card */
+
+.input-group-addon {
+    background-color: transparent;
+    border-left: 0;
+}
+
+.cc-number.identified {
+    background-repeat: no-repeat;
+	background-position-y: 3px;
+	background-position-x: 99%;
+}
+
+
+.cc-number.visa {
+    background-image: url();}
+.cc-number.mastercard {
+    background-image: url();
+}
+.cc-number.amex {
+    background-image: url();
+}
+.cc-number.discover {
+    background-image: url();
+}
+
+.one-card > div {
+    height: 150px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.two-card > div {
+    height: 80px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 48%;
+}
+
+.two-card div.amex-cvc-preview {
+    float: right;
+}
+
+
+.amex-cvc-preview {
+    background-image:url();
+}
+
+.visa-mc-cvc-preview {
+    background-image:url();
+}
+/* ********************** */
+.form{
+  width: 48%;
+  margin: 5px 25%;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button  */
+.cancelbtn {
+  width: auto;
+  padding: 10px;
+  background-color: #f44336;
+}
+
+/* Center the h1 inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+
+/* Add padding to containers */
+.container_1 {
+  padding: 16px 60px;
+}
+
+.container_2{
+  margin: 20px 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+
+.vegy{
+  width: 50vw;
+  height: auto;
+  margin: 50px 25vw;
+  box-shadow: 5px 5px 5px #69a054;
+}
